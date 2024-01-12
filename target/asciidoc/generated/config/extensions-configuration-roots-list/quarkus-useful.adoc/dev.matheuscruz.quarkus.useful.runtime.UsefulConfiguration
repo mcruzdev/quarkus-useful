@@ -1,0 +1,1 @@
+dev.matheuscruz.quarkus.useful.runtime.UsefulConfiguration

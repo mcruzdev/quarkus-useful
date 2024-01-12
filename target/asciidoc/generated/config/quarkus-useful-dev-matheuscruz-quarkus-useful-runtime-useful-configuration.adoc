@@ -1,0 +1,29 @@
+
+:summaryTableId: quarkus-useful-dev-matheuscruz-quarkus-useful-runtime-useful-configuration
+[.configuration-legend]
+icon:lock[title=Fixed at build time] Configuration property fixed at build time - All other configuration properties are overridable at runtime
+[.configuration-reference, cols="80,.^10,.^10"]
+|===
+
+h|[[quarkus-useful-dev-matheuscruz-quarkus-useful-runtime-useful-configuration_configuration]]link:#quarkus-useful-dev-matheuscruz-quarkus-useful-runtime-useful-configuration_configuration[Configuration property]
+
+h|Type
+h|Default
+
+a|icon:lock[title=Fixed at build time] [[quarkus-useful-dev-matheuscruz-quarkus-useful-runtime-useful-configuration_quarkus.useful.listenerurl]]`link:#quarkus-useful-dev-matheuscruz-quarkus-useful-runtime-useful-configuration_quarkus.useful.listenerurl[quarkus.useful.listenerUrl]`
+
+
+[.description]
+--
+The listener URL to be notified about the 'starting' event of the application.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_USEFUL_LISTENERURL+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_USEFUL_LISTENERURL+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+|===

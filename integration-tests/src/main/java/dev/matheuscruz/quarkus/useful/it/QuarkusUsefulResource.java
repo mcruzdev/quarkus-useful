@@ -18,6 +18,7 @@ package dev.matheuscruz.quarkus.useful.it;
 
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.ws.rs.GET;
+import jakarta.ws.rs.POST;
 import jakarta.ws.rs.Path;
 
 @Path("/quarkus-useful")
@@ -28,5 +29,10 @@ public class QuarkusUsefulResource {
     @GET
     public String hello() {
         return "Hello quarkus-useful";
+    }
+
+    @POST
+    public String log() {
+        return "log was called";
     }
 }
