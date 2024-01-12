@@ -1,9 +1,0 @@
----
-name: "Quarkus Useful"
-metadata:
-  built-with-quarkus-core: "3.6.5"
-  minimum-java-version: "11"
-  extension-dependencies:
-  - "io.quarkus:quarkus-arc"
-  - "io.quarkus:quarkus-core"
-artifact: "dev.matheuscruz:quarkus-useful::jar:0.0.1-SNAPSHOT"
